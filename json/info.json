@@ -2,37 +2,37 @@
   {
     "id" : 0,
     "title" : "Fish tomato mix",
-    "price": "$1.900",
+    "price": "3.00",
     "img" : "assets/images/fish_tomato.png"
   },
   {
     "id" : 1,
     "title" : "Chicken Barbique",
-    "price": "$1.900",
+    "price": "7.00",
     "img" : "assets/images/chicken_barbekue.png"
   },
   {
     "id" : 2,
     "title" : "Breakfast Grilling",
-    "price": "$1.900",
+    "price": "3.90",
     "img" : "assets/images/breakfast_grilling.png"
   },
   {
     "id" : 3,
     "title" : "Salad",
-    "price": "$1.900",
+    "price": "2.50",
     "img" : "assets/images/salad.png"
   },
   {
     "id" : 4,
     "title" : "Stake",
-    "price": "$1.900",
+    "price": "4.00",
     "img" : "assets/images/stake.png"
   },
   {
     "id" : 5,
     "title" : "Pork Belly Bowl",
-    "price": "$1.900",
+    "price": "2.50",
     "img" : "assets/images/pork_belly_bowl.png"
   }
 ]

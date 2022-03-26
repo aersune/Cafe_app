@@ -31,7 +31,6 @@ class _HomePageState extends State<HomePage> {
   void initState(){
     super.initState();
     _initData();
-    int _selectedIndex;
     timer = Timer.periodic(Duration(seconds: 5), (Timer t) => addValue());
   }
   void addValue() {
@@ -123,16 +122,16 @@ class _HomePageState extends State<HomePage> {
             child: Stack(
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 20),
+                  margin: const EdgeInsets.only(top: 20),
                   child: NotificationListener<OverscrollIndicatorNotification>(
                     onNotification: (overScroll){
                       overScroll.disallowIndicator();
                       return true;
                     },
                     child: ListView.builder(
-                      padding: EdgeInsets.only(bottom: 20),
+                      padding: const EdgeInsets.only(bottom: 20),
                         shrinkWrap: true,
-                        itemCount: (info.length.toDouble()/2).toInt() ,
+                        itemCount: info.length.toDouble()~/2 ,
                         itemBuilder: (context, i) {
                          int a = 2*i;
                          int b = 2*i +1;
@@ -278,7 +277,7 @@ class _HomePageState extends State<HomePage> {
                                                     padding: EdgeInsets.only(bottom: 10),
                                                     alignment: Alignment.bottomCenter,
                                                     child: Text(
-                                                      info[a]['price'],
+                                                      info[b]['price'],
                                                       style: TextStyle(
                                                           color: Colors.orangeAccent,
                                                           fontSize: 16,
@@ -307,8 +306,8 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     height: 40,
                     width: MediaQuery.of(context).size.width * 0.5,
-                    padding: EdgeInsets.only(left: 25, top: 5),
-                    decoration: BoxDecoration(
+                    padding: const EdgeInsets.only(left: 25, top: 5),
+                    decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
                         bottomRight: Radius.elliptical(30,30),
