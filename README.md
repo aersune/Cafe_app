@@ -1,7 +1,6 @@
-## Cafe app
+## Cafe app Screens
 
 
-## Screens
 # HOME PAGE
 <img src="https://user-images.githubusercontent.com/100187801/160598484-cfe651ae-71c6-4992-b2e5-899673004537.jpg" width="200"> | <img src="https://user-images.githubusercontent.com/100187801/160597715-7c366da5-22d5-4838-b252-fa962964bf87.jpg" width="200">
 
