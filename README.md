@@ -3,7 +3,7 @@
 
 # HOME PAGE
 
-<table>
+<table border="0">
   <tr>
     <td>Home Page</td>
      <td>Home Page Fast Food</td>
