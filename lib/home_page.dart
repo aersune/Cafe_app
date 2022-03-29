@@ -229,7 +229,7 @@ class _HomePageState extends State<HomePage> {
                                         builder: (contex) {
                                   return DetailsPage(
                                     pageIndex: selectedIndex,
-                                    info: info,
+                                    info: info, selectedPage: selectedPage,
                                   );
                                 }));
                               },
@@ -317,6 +317,7 @@ class _HomePageState extends State<HomePage> {
                                       return DetailsPage(
                                         pageIndex: selectedIndex,
                                         info: info,
+                                        selectedPage: selectedPage,
                                       );
                                     }));
                                   },
@@ -432,6 +433,7 @@ class _HomePageState extends State<HomePage> {
                                           return DetailsPage(
                                             pageIndex: selectedIndex,
                                             info: fastFood,
+                                            selectedPage: selectedPage,
                                           );
                                         }));
                               },
@@ -524,6 +526,7 @@ class _HomePageState extends State<HomePage> {
                                               return DetailsPage(
                                                 pageIndex: selectedIndex,
                                                 info: fastFood,
+                                                selectedPage: selectedPage,
                                               );
                                             }));
                                   },

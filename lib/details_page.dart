@@ -4,8 +4,9 @@ import 'package:remixicon/remixicon.dart';
 class DetailsPage extends StatefulWidget {
   final int pageIndex;
   final dynamic info;
+  final int selectedPage;
 
-  const DetailsPage({Key? key,required this.pageIndex, required this.info}) : super(key: key);
+  const DetailsPage({Key? key,required this.pageIndex, required this.info,required this.selectedPage}) : super(key: key);
 
   @override
   State<DetailsPage> createState() => _DetailsPageState();
@@ -86,7 +87,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     height: MediaQuery.of(context).size.height * 0.4,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/images/salad_bg.jpg',),
+                            image: AssetImage( widget.selectedPage == 0 ? 'assets/images/salad_bg.jpg' : '',),
                             opacity: 0.9,
                             fit: BoxFit.cover
                         )
