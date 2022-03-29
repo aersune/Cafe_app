@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:my_restaurant/details_page.dart';
 import 'package:my_restaurant/home_page.dart';
-
+import 'widget_test.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Lato',
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home:  HomePage(),
     );
   }
 }

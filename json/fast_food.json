@@ -1,0 +1,38 @@
+[
+  {
+    "id" : 0,
+    "title" : " Cheeseburger",
+    "price": "2.81",
+    "img" : "assets/images/fast_food/cheesburger.png"
+  },
+  {
+    "id" : 1,
+    "title" : " Taco Bell",
+    "price": "1.52",
+    "img" : "assets/images/fast_food/taco.png"
+  },
+  {
+    "id" : 2,
+    "title" : "Shawarma",
+    "price": "1.90",
+    "img" : "assets/images/fast_food/shourma.png"
+  },
+  {
+    "id" : 3,
+    "title" : "Chicken Popeyes",
+    "price": "6.77",
+    "img" : "assets/images/fast_food/chicken_popoyes.png"
+  },
+  {
+    "id" : 4,
+    "title" : "Fries McDonald's",
+    "price": "2.29",
+    "img" : "assets/images/fast_food/friies_macdonalds.png"
+  },
+  {
+    "id" : 5,
+    "title" : "Waffle Fries ",
+    "price": "2.11",
+    "img" : "assets/images/fast_food/waffle_fries_chick.png"
+  }
+]

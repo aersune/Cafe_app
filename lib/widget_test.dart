@@ -8,23 +8,27 @@ class _AddFullRequestState extends State<AddFullRequest> {
   int _x = 0;
 
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: <Widget>[
-          Text("$_x"),
-          GestureDetector(
-            onTap: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => AddItemScr(
-                    onPressed: () => setState(() => _x++),
-                  ),
-                ),
-              );
-            },
-            child: Text('goto'),
+    return SafeArea(
+      child: Scaffold(
+        body: Center(
+          child: Column(
+            children: <Widget>[
+              Text("$_x"),
+              GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => AddItemScr(
+                        onPressed: () => setState(() => _x++),
+                      ),
+                    ),
+                  );
+                },
+                child: Text('goto'),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }

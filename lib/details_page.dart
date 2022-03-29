@@ -62,9 +62,9 @@ class _DetailsPageState extends State<DetailsPage> {
                       ),
                           child: Center(
                             child: Text('1',style: TextStyle(
-                              color: color.AppColor.textColor,
+                              color: Colors.black87,
                               fontSize: 13,
-                              fontWeight: FontWeight.w600
+                              fontWeight: FontWeight.w500
                             ),),
                           ),
                     ))
@@ -231,6 +231,8 @@ class _DetailsPageState extends State<DetailsPage> {
                 ],
               ),
             ),
+
+
           ],
         ),
       ),
