@@ -1,10 +1,9 @@
 ## Cafe app Screens
 ## Video
 
-
 https://user-images.githubusercontent.com/100187801/160596409-8345d88a-d758-4f27-bc8e-9d1a847ed2f9.mp4
 
-# HOME PAGE
+# HOME PAGE Screens
 
 <table>
   <tr>
@@ -18,7 +17,8 @@ https://user-images.githubusercontent.com/100187801/160596409-8345d88a-d758-4f27
     <td><img src="https://user-images.githubusercontent.com/100187801/160600041-8080b61b-686f-4ea9-9b98-1629cc464539.jpg" width=270></td>
   </tr>
  </table>
-
+  
+## Details Page Screens
 <table>
   <tr>
     <td>Details page</td>
