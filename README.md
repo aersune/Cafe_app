@@ -3,10 +3,6 @@
 
 ## Screens
 
-![Screenshot](assets/images/screens/home_page.jpg)
-![Screenshot](assets/images/screens/details_page.jpg)
-![Screenshot](assets/images/screens/home_page_fast_food.jpg)
-![Screenshot](assets/images/screens/details_page_fast_food.jpg)
 
 
 ## Video
